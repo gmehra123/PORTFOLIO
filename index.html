@@ -6,6 +6,15 @@
     <title>Your Name - Data Science Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8KKFQV4ZS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T8KKFQV4ZS');
+</script>
 <body>
     <header>
         <h1>Gaurang Mehra</h1>
@@ -22,9 +31,9 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a Data and Analytics professional looking to solve business problems using statistics, Machine Learning and data centric approaches. 
-            I have 6+ years of pricing and strategic intiatives experience. This page is a set of the blog articles I have written as case studies which address common business problems
-             such as forecasting time series, simulating uncertainity with various scenarios and using clustering approaches to segmentation.</p>
+        <p>I am a Data and Analytics leader with over 6 years of experience driving strategic initiatives and solving business problems through data-centric approaches. 
+            My focus is on leveraging advanced machine learning, statistical analysis, and forecasting techniques to enable data-driven decision-making at the executive level. 
+            This portfolio showcases my thought leadership in areas such as pricing strategy, customer segmentation, and business forecasting, and demonstrates how I’ve helped businesses achieve significant operational improvements</p>
     </section>
 
     <section id="statistics">
@@ -35,6 +44,9 @@
                 I genereate confidence intervals around estimates of key variables using <b>bootstrap</b> resampling. Finally I demonstrate how
                 to formulate a hypothesis test and how to use <b>bootstrap</b> re-sampling to test the null hypothesis.
             </p>
+            <p><b>Business Imapct:</b>This kind of analysis quantifies and conveys the degree of uncertainity around business metrics.
+            Rather than using point estimates like avg Lifetime Value we can convey confidence intervals. For eg. We can say with 95% confidence
+            that the true mean Lifetime Value is in the interavl from $350 to $375 rather than the mean Lifetime value is $340 </p>
             <a href="https://medium.com/p/a609dbfb5b12">Hypothesis Testing and confidence intervals article</a>
         </div>
         <div class="project">
@@ -42,6 +54,10 @@
             <p>This is part 2 of my hypothesis testing series. In this article I show practical examples of hypothesis testing,
                 such as <b>test against a single value</b> and a <b>difference of means</b> test as well as an example of <b>ANOVA</b>
             </p>
+            <p><b>Business Imapct:</b>This kind of analysis helps us formulate and and answer questions like are late packages truly
+            heavier than packages that arrive on time. It also helps build confidence around our estimates. Even though off the shelf tools 
+            are available but a good understanding of the process helps leaders ask the right questions </p>
+            
             <a href="https://medium.com/p/8c15d880559c">Practical guide to Hypothesis testing article</a>
         </div>
         <div class="project">
@@ -51,6 +67,8 @@
                 In particular I introduce Kaplan Meier curves that are <b>non-parametric</b> curves that help us explore the difference in survival
                 between groups without assuming any distribution or parameters.
             </p>
+            <p><b>Business Imapct:</b>Kaplan-Meier curves help businesses understand how long customers or products last before an event like churn or failure occurs. 
+                By revealing patterns in customer retention or product reliability, companies can make informed decisions to improve customer loyalty,increase lifetime value or optimize maintenance strategies.  </p>
             <a href="https://medium.com/p/dd9c3db5e82d">Managing Attrition article</a>
         </div>
         <!-- Add more statistics projects as needed -->
