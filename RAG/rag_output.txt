@@ -1,0 +1,1 @@
+The `chatbot.py` file contains a class named `ChatBot` with a method called `_get_llm`. This method takes a parameter `provider` and checks if it is equal to the string "OpenAI". If it is, the method returns an instance of the `OpenAI` class. The function is designed to facilitate the selection of a language model based on the specified provider.
